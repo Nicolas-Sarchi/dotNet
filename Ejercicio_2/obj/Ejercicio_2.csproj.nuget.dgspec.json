@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Nicolas\\Documents\\proyectosDotNet\\consolaNet\\Ejercicio_2\\Ejercicio_2.csproj": {}
+    "/home/arteN01-049/Desktop/dotNet/Ejercicio_2/Ejercicio_2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Nicolas\\Documents\\proyectosDotNet\\consolaNet\\Ejercicio_2\\Ejercicio_2.csproj": {
+    "/home/arteN01-049/Desktop/dotNet/Ejercicio_2/Ejercicio_2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nicolas\\Documents\\proyectosDotNet\\consolaNet\\Ejercicio_2\\Ejercicio_2.csproj",
+        "projectUniqueName": "/home/arteN01-049/Desktop/dotNet/Ejercicio_2/Ejercicio_2.csproj",
         "projectName": "Ejercicio_2",
-        "projectPath": "C:\\Users\\Nicolas\\Documents\\proyectosDotNet\\consolaNet\\Ejercicio_2\\Ejercicio_2.csproj",
-        "packagesPath": "C:\\Users\\Nicolas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nicolas\\Documents\\proyectosDotNet\\consolaNet\\Ejercicio_2\\obj\\",
+        "projectPath": "/home/arteN01-049/Desktop/dotNet/Ejercicio_2/Ejercicio_2.csproj",
+        "packagesPath": "/home/arteN01-049/.nuget/packages/",
+        "outputPath": "/home/arteN01-049/Desktop/dotNet/Ejercicio_2/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Nicolas\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/arteN01-049/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -53,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.109/RuntimeIdentifierGraph.json"
         }
       }
     }

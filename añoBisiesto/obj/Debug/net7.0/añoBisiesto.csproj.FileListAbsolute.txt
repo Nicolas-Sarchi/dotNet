@@ -1,0 +1,15 @@
+/home/arteN01-049/Desktop/dotNet/añoBisiesto/bin/Debug/net7.0/añoBisiesto
+/home/arteN01-049/Desktop/dotNet/añoBisiesto/bin/Debug/net7.0/añoBisiesto.deps.json
+/home/arteN01-049/Desktop/dotNet/añoBisiesto/bin/Debug/net7.0/añoBisiesto.runtimeconfig.json
+/home/arteN01-049/Desktop/dotNet/añoBisiesto/bin/Debug/net7.0/añoBisiesto.dll
+/home/arteN01-049/Desktop/dotNet/añoBisiesto/bin/Debug/net7.0/añoBisiesto.pdb
+/home/arteN01-049/Desktop/dotNet/añoBisiesto/obj/Debug/net7.0/añoBisiesto.csproj.AssemblyReference.cache
+/home/arteN01-049/Desktop/dotNet/añoBisiesto/obj/Debug/net7.0/añoBisiesto.GeneratedMSBuildEditorConfig.editorconfig
+/home/arteN01-049/Desktop/dotNet/añoBisiesto/obj/Debug/net7.0/añoBisiesto.AssemblyInfoInputs.cache
+/home/arteN01-049/Desktop/dotNet/añoBisiesto/obj/Debug/net7.0/añoBisiesto.AssemblyInfo.cs
+/home/arteN01-049/Desktop/dotNet/añoBisiesto/obj/Debug/net7.0/añoBisiesto.csproj.CoreCompileInputs.cache
+/home/arteN01-049/Desktop/dotNet/añoBisiesto/obj/Debug/net7.0/añoBisiesto.dll
+/home/arteN01-049/Desktop/dotNet/añoBisiesto/obj/Debug/net7.0/refint/añoBisiesto.dll
+/home/arteN01-049/Desktop/dotNet/añoBisiesto/obj/Debug/net7.0/añoBisiesto.pdb
+/home/arteN01-049/Desktop/dotNet/añoBisiesto/obj/Debug/net7.0/añoBisiesto.genruntimeconfig.cache
+/home/arteN01-049/Desktop/dotNet/añoBisiesto/obj/Debug/net7.0/ref/añoBisiesto.dll

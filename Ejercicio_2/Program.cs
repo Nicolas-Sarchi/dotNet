@@ -1,4 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
+
+
 Console.WriteLine("Ingrese un Numero: ");
 string num = Console.ReadLine() ?? string.Empty;	
 

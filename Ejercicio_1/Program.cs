@@ -1,15 +1,13 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Ingrese un número: ");
-string num = Console.ReadLine() ?? string.Empty;
+﻿Console.Write("\n\nIngresa el límite de la suma: ");
+int limite = Convert.ToInt32(Console.ReadLine());
+int suma = 0;
+int numero;
+Console.WriteLine("Ingresa números para sumar (ingresa 0 para terminar):");
+           
+do{
+    numero = Convert.ToInt32(Console.ReadLine());
+    suma += numero;
+}
+while (numero != 0 && suma < limite);
 
-Console.WriteLine("Ingrese un número: ");
-string num2 = Console.ReadLine() ?? string.Empty;
-
-double suma = double.Parse(num) + double.Parse(num2);
-double resta = double.Parse(num) - double.Parse(num2);
-double multiplicacion = double.Parse(num) * double.Parse(num2);
-double division = double.Parse(num) / double.Parse(num2);
-
-Console.WriteLine($"Suma: {suma}" + " " + $"Resta: {resta}" + " " + $"Multiplicacion: {multiplicacion}" + " " + $"Division: {division}");
-
-
+Console.WriteLine($"La suma total es: {suma}\n");

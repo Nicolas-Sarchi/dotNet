@@ -1,0 +1,15 @@
+/home/arteN01-049/Desktop/dotNet/convertidor/bin/Debug/net7.0/convertidor
+/home/arteN01-049/Desktop/dotNet/convertidor/bin/Debug/net7.0/convertidor.deps.json
+/home/arteN01-049/Desktop/dotNet/convertidor/bin/Debug/net7.0/convertidor.runtimeconfig.json
+/home/arteN01-049/Desktop/dotNet/convertidor/bin/Debug/net7.0/convertidor.dll
+/home/arteN01-049/Desktop/dotNet/convertidor/bin/Debug/net7.0/convertidor.pdb
+/home/arteN01-049/Desktop/dotNet/convertidor/obj/Debug/net7.0/convertidor.csproj.AssemblyReference.cache
+/home/arteN01-049/Desktop/dotNet/convertidor/obj/Debug/net7.0/convertidor.GeneratedMSBuildEditorConfig.editorconfig
+/home/arteN01-049/Desktop/dotNet/convertidor/obj/Debug/net7.0/convertidor.AssemblyInfoInputs.cache
+/home/arteN01-049/Desktop/dotNet/convertidor/obj/Debug/net7.0/convertidor.AssemblyInfo.cs
+/home/arteN01-049/Desktop/dotNet/convertidor/obj/Debug/net7.0/convertidor.csproj.CoreCompileInputs.cache
+/home/arteN01-049/Desktop/dotNet/convertidor/obj/Debug/net7.0/convertidor.dll
+/home/arteN01-049/Desktop/dotNet/convertidor/obj/Debug/net7.0/refint/convertidor.dll
+/home/arteN01-049/Desktop/dotNet/convertidor/obj/Debug/net7.0/convertidor.pdb
+/home/arteN01-049/Desktop/dotNet/convertidor/obj/Debug/net7.0/convertidor.genruntimeconfig.cache
+/home/arteN01-049/Desktop/dotNet/convertidor/obj/Debug/net7.0/ref/convertidor.dll
