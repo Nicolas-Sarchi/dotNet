@@ -1,0 +1,15 @@
+C:\Users\Nicolas\Desktop\dotNet\Conversor de Unidades\obj\Debug\net7.0\Conversor de Unidades.csproj.AssemblyReference.cache
+C:\Users\Nicolas\Desktop\dotNet\Conversor de Unidades\obj\Debug\net7.0\Conversor de Unidades.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nicolas\Desktop\dotNet\Conversor de Unidades\obj\Debug\net7.0\Conversor de Unidades.AssemblyInfoInputs.cache
+C:\Users\Nicolas\Desktop\dotNet\Conversor de Unidades\obj\Debug\net7.0\Conversor de Unidades.AssemblyInfo.cs
+C:\Users\Nicolas\Desktop\dotNet\Conversor de Unidades\obj\Debug\net7.0\Conversor de Unidades.csproj.CoreCompileInputs.cache
+C:\Users\Nicolas\Desktop\dotNet\Conversor de Unidades\bin\Debug\net7.0\Conversor de Unidades.exe
+C:\Users\Nicolas\Desktop\dotNet\Conversor de Unidades\bin\Debug\net7.0\Conversor de Unidades.deps.json
+C:\Users\Nicolas\Desktop\dotNet\Conversor de Unidades\bin\Debug\net7.0\Conversor de Unidades.runtimeconfig.json
+C:\Users\Nicolas\Desktop\dotNet\Conversor de Unidades\bin\Debug\net7.0\Conversor de Unidades.dll
+C:\Users\Nicolas\Desktop\dotNet\Conversor de Unidades\bin\Debug\net7.0\Conversor de Unidades.pdb
+C:\Users\Nicolas\Desktop\dotNet\Conversor de Unidades\obj\Debug\net7.0\Conversor de Unidades.dll
+C:\Users\Nicolas\Desktop\dotNet\Conversor de Unidades\obj\Debug\net7.0\refint\Conversor de Unidades.dll
+C:\Users\Nicolas\Desktop\dotNet\Conversor de Unidades\obj\Debug\net7.0\Conversor de Unidades.pdb
+C:\Users\Nicolas\Desktop\dotNet\Conversor de Unidades\obj\Debug\net7.0\Conversor de Unidades.genruntimeconfig.cache
+C:\Users\Nicolas\Desktop\dotNet\Conversor de Unidades\obj\Debug\net7.0\ref\Conversor de Unidades.dll

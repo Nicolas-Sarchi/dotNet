@@ -1,0 +1,15 @@
+C:\Users\Nicolas\Desktop\dotNet\Funciones2\obj\Debug\net7.0\Funciones2.csproj.AssemblyReference.cache
+C:\Users\Nicolas\Desktop\dotNet\Funciones2\obj\Debug\net7.0\Funciones2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nicolas\Desktop\dotNet\Funciones2\obj\Debug\net7.0\Funciones2.AssemblyInfoInputs.cache
+C:\Users\Nicolas\Desktop\dotNet\Funciones2\obj\Debug\net7.0\Funciones2.AssemblyInfo.cs
+C:\Users\Nicolas\Desktop\dotNet\Funciones2\obj\Debug\net7.0\Funciones2.csproj.CoreCompileInputs.cache
+C:\Users\Nicolas\Desktop\dotNet\Funciones2\bin\Debug\net7.0\Funciones2.exe
+C:\Users\Nicolas\Desktop\dotNet\Funciones2\bin\Debug\net7.0\Funciones2.deps.json
+C:\Users\Nicolas\Desktop\dotNet\Funciones2\bin\Debug\net7.0\Funciones2.runtimeconfig.json
+C:\Users\Nicolas\Desktop\dotNet\Funciones2\bin\Debug\net7.0\Funciones2.dll
+C:\Users\Nicolas\Desktop\dotNet\Funciones2\bin\Debug\net7.0\Funciones2.pdb
+C:\Users\Nicolas\Desktop\dotNet\Funciones2\obj\Debug\net7.0\Funciones2.dll
+C:\Users\Nicolas\Desktop\dotNet\Funciones2\obj\Debug\net7.0\refint\Funciones2.dll
+C:\Users\Nicolas\Desktop\dotNet\Funciones2\obj\Debug\net7.0\Funciones2.pdb
+C:\Users\Nicolas\Desktop\dotNet\Funciones2\obj\Debug\net7.0\Funciones2.genruntimeconfig.cache
+C:\Users\Nicolas\Desktop\dotNet\Funciones2\obj\Debug\net7.0\ref\Funciones2.dll
