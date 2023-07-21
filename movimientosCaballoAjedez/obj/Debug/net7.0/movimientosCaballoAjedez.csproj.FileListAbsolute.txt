@@ -1,0 +1,15 @@
+/home/arteN01-049/Desktop/dotNet/movimientosCaballoAjedez/obj/Debug/net7.0/movimientosCaballoAjedez.csproj.AssemblyReference.cache
+/home/arteN01-049/Desktop/dotNet/movimientosCaballoAjedez/obj/Debug/net7.0/movimientosCaballoAjedez.GeneratedMSBuildEditorConfig.editorconfig
+/home/arteN01-049/Desktop/dotNet/movimientosCaballoAjedez/obj/Debug/net7.0/movimientosCaballoAjedez.AssemblyInfoInputs.cache
+/home/arteN01-049/Desktop/dotNet/movimientosCaballoAjedez/obj/Debug/net7.0/movimientosCaballoAjedez.AssemblyInfo.cs
+/home/arteN01-049/Desktop/dotNet/movimientosCaballoAjedez/obj/Debug/net7.0/movimientosCaballoAjedez.csproj.CoreCompileInputs.cache
+/home/arteN01-049/Desktop/dotNet/movimientosCaballoAjedez/bin/Debug/net7.0/movimientosCaballoAjedez
+/home/arteN01-049/Desktop/dotNet/movimientosCaballoAjedez/bin/Debug/net7.0/movimientosCaballoAjedez.deps.json
+/home/arteN01-049/Desktop/dotNet/movimientosCaballoAjedez/bin/Debug/net7.0/movimientosCaballoAjedez.runtimeconfig.json
+/home/arteN01-049/Desktop/dotNet/movimientosCaballoAjedez/bin/Debug/net7.0/movimientosCaballoAjedez.dll
+/home/arteN01-049/Desktop/dotNet/movimientosCaballoAjedez/bin/Debug/net7.0/movimientosCaballoAjedez.pdb
+/home/arteN01-049/Desktop/dotNet/movimientosCaballoAjedez/obj/Debug/net7.0/movimientosCaballoAjedez.dll
+/home/arteN01-049/Desktop/dotNet/movimientosCaballoAjedez/obj/Debug/net7.0/refint/movimientosCaballoAjedez.dll
+/home/arteN01-049/Desktop/dotNet/movimientosCaballoAjedez/obj/Debug/net7.0/movimientosCaballoAjedez.pdb
+/home/arteN01-049/Desktop/dotNet/movimientosCaballoAjedez/obj/Debug/net7.0/movimientosCaballoAjedez.genruntimeconfig.cache
+/home/arteN01-049/Desktop/dotNet/movimientosCaballoAjedez/obj/Debug/net7.0/ref/movimientosCaballoAjedez.dll
