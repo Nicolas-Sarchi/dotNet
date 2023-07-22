@@ -1,0 +1,15 @@
+C:\Users\Nicolas\Desktop\dotNet\eliminarDuplicadosArray\bin\Debug\net7.0\eliminarDuplicadosArray.exe
+C:\Users\Nicolas\Desktop\dotNet\eliminarDuplicadosArray\bin\Debug\net7.0\eliminarDuplicadosArray.deps.json
+C:\Users\Nicolas\Desktop\dotNet\eliminarDuplicadosArray\bin\Debug\net7.0\eliminarDuplicadosArray.runtimeconfig.json
+C:\Users\Nicolas\Desktop\dotNet\eliminarDuplicadosArray\bin\Debug\net7.0\eliminarDuplicadosArray.dll
+C:\Users\Nicolas\Desktop\dotNet\eliminarDuplicadosArray\bin\Debug\net7.0\eliminarDuplicadosArray.pdb
+C:\Users\Nicolas\Desktop\dotNet\eliminarDuplicadosArray\obj\Debug\net7.0\eliminarDuplicadosArray.csproj.AssemblyReference.cache
+C:\Users\Nicolas\Desktop\dotNet\eliminarDuplicadosArray\obj\Debug\net7.0\eliminarDuplicadosArray.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nicolas\Desktop\dotNet\eliminarDuplicadosArray\obj\Debug\net7.0\eliminarDuplicadosArray.AssemblyInfoInputs.cache
+C:\Users\Nicolas\Desktop\dotNet\eliminarDuplicadosArray\obj\Debug\net7.0\eliminarDuplicadosArray.AssemblyInfo.cs
+C:\Users\Nicolas\Desktop\dotNet\eliminarDuplicadosArray\obj\Debug\net7.0\eliminarDuplicadosArray.csproj.CoreCompileInputs.cache
+C:\Users\Nicolas\Desktop\dotNet\eliminarDuplicadosArray\obj\Debug\net7.0\eliminarDuplicadosArray.dll
+C:\Users\Nicolas\Desktop\dotNet\eliminarDuplicadosArray\obj\Debug\net7.0\refint\eliminarDuplicadosArray.dll
+C:\Users\Nicolas\Desktop\dotNet\eliminarDuplicadosArray\obj\Debug\net7.0\eliminarDuplicadosArray.pdb
+C:\Users\Nicolas\Desktop\dotNet\eliminarDuplicadosArray\obj\Debug\net7.0\eliminarDuplicadosArray.genruntimeconfig.cache
+C:\Users\Nicolas\Desktop\dotNet\eliminarDuplicadosArray\obj\Debug\net7.0\ref\eliminarDuplicadosArray.dll

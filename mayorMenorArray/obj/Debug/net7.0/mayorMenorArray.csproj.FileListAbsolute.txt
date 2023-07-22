@@ -1,0 +1,15 @@
+C:\Users\Nicolas\Desktop\dotNet\mayorMenorArray\obj\Debug\net7.0\mayorMenorArray.csproj.AssemblyReference.cache
+C:\Users\Nicolas\Desktop\dotNet\mayorMenorArray\obj\Debug\net7.0\mayorMenorArray.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nicolas\Desktop\dotNet\mayorMenorArray\obj\Debug\net7.0\mayorMenorArray.AssemblyInfoInputs.cache
+C:\Users\Nicolas\Desktop\dotNet\mayorMenorArray\obj\Debug\net7.0\mayorMenorArray.AssemblyInfo.cs
+C:\Users\Nicolas\Desktop\dotNet\mayorMenorArray\obj\Debug\net7.0\mayorMenorArray.csproj.CoreCompileInputs.cache
+C:\Users\Nicolas\Desktop\dotNet\mayorMenorArray\bin\Debug\net7.0\mayorMenorArray.exe
+C:\Users\Nicolas\Desktop\dotNet\mayorMenorArray\bin\Debug\net7.0\mayorMenorArray.deps.json
+C:\Users\Nicolas\Desktop\dotNet\mayorMenorArray\bin\Debug\net7.0\mayorMenorArray.runtimeconfig.json
+C:\Users\Nicolas\Desktop\dotNet\mayorMenorArray\bin\Debug\net7.0\mayorMenorArray.dll
+C:\Users\Nicolas\Desktop\dotNet\mayorMenorArray\bin\Debug\net7.0\mayorMenorArray.pdb
+C:\Users\Nicolas\Desktop\dotNet\mayorMenorArray\obj\Debug\net7.0\mayorMenorArray.dll
+C:\Users\Nicolas\Desktop\dotNet\mayorMenorArray\obj\Debug\net7.0\refint\mayorMenorArray.dll
+C:\Users\Nicolas\Desktop\dotNet\mayorMenorArray\obj\Debug\net7.0\mayorMenorArray.pdb
+C:\Users\Nicolas\Desktop\dotNet\mayorMenorArray\obj\Debug\net7.0\mayorMenorArray.genruntimeconfig.cache
+C:\Users\Nicolas\Desktop\dotNet\mayorMenorArray\obj\Debug\net7.0\ref\mayorMenorArray.dll

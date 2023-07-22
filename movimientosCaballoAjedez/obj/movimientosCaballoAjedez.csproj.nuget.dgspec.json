@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/home/arteN01-049/Desktop/dotNet/movimientosCaballoAjedez/movimientosCaballoAjedez.csproj": {}
+    "C:\\Users\\Nicolas\\Desktop\\dotNet\\movimientosCaballoAjedez\\movimientosCaballoAjedez.csproj": {}
   },
   "projects": {
-    "/home/arteN01-049/Desktop/dotNet/movimientosCaballoAjedez/movimientosCaballoAjedez.csproj": {
+    "C:\\Users\\Nicolas\\Desktop\\dotNet\\movimientosCaballoAjedez\\movimientosCaballoAjedez.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/arteN01-049/Desktop/dotNet/movimientosCaballoAjedez/movimientosCaballoAjedez.csproj",
+        "projectUniqueName": "C:\\Users\\Nicolas\\Desktop\\dotNet\\movimientosCaballoAjedez\\movimientosCaballoAjedez.csproj",
         "projectName": "movimientosCaballoAjedez",
-        "projectPath": "/home/arteN01-049/Desktop/dotNet/movimientosCaballoAjedez/movimientosCaballoAjedez.csproj",
-        "packagesPath": "/home/arteN01-049/.nuget/packages/",
-        "outputPath": "/home/arteN01-049/Desktop/dotNet/movimientosCaballoAjedez/obj/",
+        "projectPath": "C:\\Users\\Nicolas\\Desktop\\dotNet\\movimientosCaballoAjedez\\movimientosCaballoAjedez.csproj",
+        "packagesPath": "C:\\Users\\Nicolas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Nicolas\\Desktop\\dotNet\\movimientosCaballoAjedez\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/arteN01-049/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Nicolas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -53,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.109/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     }
