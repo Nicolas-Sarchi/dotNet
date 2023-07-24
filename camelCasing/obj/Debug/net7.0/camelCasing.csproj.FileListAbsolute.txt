@@ -1,0 +1,15 @@
+C:\Users\Nicolas\Desktop\dotNet\camelCasing\obj\Debug\net7.0\camelCasing.csproj.AssemblyReference.cache
+C:\Users\Nicolas\Desktop\dotNet\camelCasing\obj\Debug\net7.0\camelCasing.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nicolas\Desktop\dotNet\camelCasing\obj\Debug\net7.0\camelCasing.AssemblyInfoInputs.cache
+C:\Users\Nicolas\Desktop\dotNet\camelCasing\obj\Debug\net7.0\camelCasing.AssemblyInfo.cs
+C:\Users\Nicolas\Desktop\dotNet\camelCasing\obj\Debug\net7.0\camelCasing.csproj.CoreCompileInputs.cache
+C:\Users\Nicolas\Desktop\dotNet\camelCasing\bin\Debug\net7.0\camelCasing.exe
+C:\Users\Nicolas\Desktop\dotNet\camelCasing\bin\Debug\net7.0\camelCasing.deps.json
+C:\Users\Nicolas\Desktop\dotNet\camelCasing\bin\Debug\net7.0\camelCasing.runtimeconfig.json
+C:\Users\Nicolas\Desktop\dotNet\camelCasing\bin\Debug\net7.0\camelCasing.dll
+C:\Users\Nicolas\Desktop\dotNet\camelCasing\bin\Debug\net7.0\camelCasing.pdb
+C:\Users\Nicolas\Desktop\dotNet\camelCasing\obj\Debug\net7.0\camelCasing.dll
+C:\Users\Nicolas\Desktop\dotNet\camelCasing\obj\Debug\net7.0\refint\camelCasing.dll
+C:\Users\Nicolas\Desktop\dotNet\camelCasing\obj\Debug\net7.0\camelCasing.pdb
+C:\Users\Nicolas\Desktop\dotNet\camelCasing\obj\Debug\net7.0\camelCasing.genruntimeconfig.cache
+C:\Users\Nicolas\Desktop\dotNet\camelCasing\obj\Debug\net7.0\ref\camelCasing.dll
