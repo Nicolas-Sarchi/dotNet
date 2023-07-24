@@ -1,0 +1,15 @@
+/home/arteN01-049/Desktop/dotNet/markify/obj/Debug/net7.0/markify.csproj.AssemblyReference.cache
+/home/arteN01-049/Desktop/dotNet/markify/obj/Debug/net7.0/markify.GeneratedMSBuildEditorConfig.editorconfig
+/home/arteN01-049/Desktop/dotNet/markify/obj/Debug/net7.0/markify.AssemblyInfoInputs.cache
+/home/arteN01-049/Desktop/dotNet/markify/obj/Debug/net7.0/markify.AssemblyInfo.cs
+/home/arteN01-049/Desktop/dotNet/markify/obj/Debug/net7.0/markify.csproj.CoreCompileInputs.cache
+/home/arteN01-049/Desktop/dotNet/markify/bin/Debug/net7.0/markify
+/home/arteN01-049/Desktop/dotNet/markify/bin/Debug/net7.0/markify.deps.json
+/home/arteN01-049/Desktop/dotNet/markify/bin/Debug/net7.0/markify.runtimeconfig.json
+/home/arteN01-049/Desktop/dotNet/markify/bin/Debug/net7.0/markify.dll
+/home/arteN01-049/Desktop/dotNet/markify/bin/Debug/net7.0/markify.pdb
+/home/arteN01-049/Desktop/dotNet/markify/obj/Debug/net7.0/markify.dll
+/home/arteN01-049/Desktop/dotNet/markify/obj/Debug/net7.0/refint/markify.dll
+/home/arteN01-049/Desktop/dotNet/markify/obj/Debug/net7.0/markify.pdb
+/home/arteN01-049/Desktop/dotNet/markify/obj/Debug/net7.0/markify.genruntimeconfig.cache
+/home/arteN01-049/Desktop/dotNet/markify/obj/Debug/net7.0/ref/markify.dll

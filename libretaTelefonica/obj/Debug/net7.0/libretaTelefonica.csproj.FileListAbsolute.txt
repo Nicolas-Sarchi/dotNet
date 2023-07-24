@@ -1,0 +1,15 @@
+/home/arteN01-049/Desktop/dotNet/libretaTelefonica/bin/Debug/net7.0/libretaTelefonica
+/home/arteN01-049/Desktop/dotNet/libretaTelefonica/bin/Debug/net7.0/libretaTelefonica.deps.json
+/home/arteN01-049/Desktop/dotNet/libretaTelefonica/bin/Debug/net7.0/libretaTelefonica.runtimeconfig.json
+/home/arteN01-049/Desktop/dotNet/libretaTelefonica/bin/Debug/net7.0/libretaTelefonica.dll
+/home/arteN01-049/Desktop/dotNet/libretaTelefonica/bin/Debug/net7.0/libretaTelefonica.pdb
+/home/arteN01-049/Desktop/dotNet/libretaTelefonica/obj/Debug/net7.0/libretaTelefonica.csproj.AssemblyReference.cache
+/home/arteN01-049/Desktop/dotNet/libretaTelefonica/obj/Debug/net7.0/libretaTelefonica.GeneratedMSBuildEditorConfig.editorconfig
+/home/arteN01-049/Desktop/dotNet/libretaTelefonica/obj/Debug/net7.0/libretaTelefonica.AssemblyInfoInputs.cache
+/home/arteN01-049/Desktop/dotNet/libretaTelefonica/obj/Debug/net7.0/libretaTelefonica.AssemblyInfo.cs
+/home/arteN01-049/Desktop/dotNet/libretaTelefonica/obj/Debug/net7.0/libretaTelefonica.csproj.CoreCompileInputs.cache
+/home/arteN01-049/Desktop/dotNet/libretaTelefonica/obj/Debug/net7.0/libretaTelefonica.dll
+/home/arteN01-049/Desktop/dotNet/libretaTelefonica/obj/Debug/net7.0/refint/libretaTelefonica.dll
+/home/arteN01-049/Desktop/dotNet/libretaTelefonica/obj/Debug/net7.0/libretaTelefonica.pdb
+/home/arteN01-049/Desktop/dotNet/libretaTelefonica/obj/Debug/net7.0/libretaTelefonica.genruntimeconfig.cache
+/home/arteN01-049/Desktop/dotNet/libretaTelefonica/obj/Debug/net7.0/ref/libretaTelefonica.dll
