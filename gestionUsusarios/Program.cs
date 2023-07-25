@@ -97,12 +97,8 @@ class Program
         {
             var usuario = Usuarios[idUsuario];
 
-            string hobies = "";
-            for (int i = 0; i < usuario.Hobbies.Length; i++)
-            {
-                hobies+= $"{usuario.Hobbies[i]} ";
-                
-            }
+            string hobies = string.Join("", usuario.Hobbies);
+            
         Console.WriteLine($"\nNombre\t\tEdad\t\t\tHobbies");
 
         Console.WriteLine($"\n{usuario.Nombre}\t\t{usuario.Edad}\t\t\t{hobies}");
