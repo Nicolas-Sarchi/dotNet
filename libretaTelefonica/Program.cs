@@ -1,13 +1,13 @@
 ﻿using System;
-using System.Collections;
+using System.Collections.Generic;
+
 class Program
 {
-    public static Dictionary<string, double> AgendaTelefonica = new Dictionary<string, double> ();
+    public static Dictionary<string, (double, bool)> AgendaTelefonica = new Dictionary<string, (double, bool)>();
 
     static void Main()
     {
         int opcion;
-
 
         do
         {
@@ -26,7 +26,7 @@ class Program
                     MarcarFavorito();
                     break;
                 case 4:
-                    AgregarContacto();
+                    EliminarContacto();
                     break;
                 case 5:
                     Console.WriteLine("Hasta luego.");
@@ -48,7 +48,6 @@ class Program
         Console.WriteLine("3. Marcar Contacto como importante");
         Console.WriteLine("4. Eliminar Contacto");
         Console.WriteLine("5. Salir");
-
     }
 
     static int PedirOpcion()
@@ -60,30 +59,52 @@ class Program
     static void AgregarContacto()
     {
         Console.Write("Ingrese el nombre del contacto: ");
-        string? nombreContacto = Console.ReadLine() ;
+        string? nombreContacto = Console.ReadLine();
         Console.Write("Ingrese el Telèfono del contacto: ");
-        double telContacto = double.Parse(Console.ReadLine());
-        AgendaTelefonica.Add(nombreContacto, telContacto);
+        double telContacto = double.TryParse(Console.ReadLine(), out telContacto) ? telContacto : 0;
+        AgendaTelefonica.Add(nombreContacto, (telContacto, false));
     }
 
     static void MostrarContactos()
     {
-        Console.WriteLine($"\nNombre\tTelefono");
+        Console.WriteLine($"\nNombre\t\tTelefono\tFavorito");
 
-        foreach (KeyValuePair<string,double> contacto in AgendaTelefonica)
+        foreach (KeyValuePair<string, (double, bool)> contacto in AgendaTelefonica)
         {
-            Console.WriteLine("\n"+contacto.Key + "\t" + contacto.Value);
-
+            Console.WriteLine($"\n{contacto.Key}\t\t{contacto.Value.Item1}\t\t{(contacto.Value.Item2 ? "Si" : "No")}");
         }
     }
 
     static void MarcarFavorito()
     {
-        Console.Write("Ingresa el Nùmero de Telèfono del contacto que quiere marcar como favorito: ");
-        double numFavorito = double.Parse(Console.ReadLine());
-        int contactoFav = AgendaTelefonica.Values.ToList().Contains(numFavorito);
+        Console.Write("Ingrese el nombre del contacto a marcar como favorito: ");
+        string? nombreContacto = Console.ReadLine();
 
-        KeyValuePair<string, double> resultado = AgendaTelefonica.ElementAt(contactoFav);
-        Console.WriteLine(resultado.Key + "🌟"); 
+        if (AgendaTelefonica.ContainsKey(nombreContacto))
+        {
+            var contact = AgendaTelefonica[nombreContacto];
+            AgendaTelefonica[nombreContacto] = (contact.Item1, true);
+            Console.WriteLine("\nContacto marcado como favorito.");
+        }
+        else
+        {
+            Console.WriteLine("\nContacto no encontrado.");
+        }
+    }
+
+    static void EliminarContacto()
+    {
+        Console.Write("Ingrese el nombre del contacto a eliminar: ");
+        string? nombreContacto = Console.ReadLine();
+
+        if (AgendaTelefonica.ContainsKey(nombreContacto))
+        {
+            AgendaTelefonica.Remove(nombreContacto);
+            Console.WriteLine("Contacto eliminado correctamente.");
+        }
+        else
+        {
+            Console.WriteLine("Contacto no encontrado.");
+        }
     }
 }

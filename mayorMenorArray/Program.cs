@@ -20,7 +20,7 @@ for (int i = 0; i < arrayStr.Length; i++)
 
     if (arrayNum[i] < numMenor)
     {
-        numMenor = arrayNum[i];
+        numMenor = arrayNum[i]; 
     } else if (arrayNum[i] > numMayor)
     {
         numMayor = arrayNum[i];

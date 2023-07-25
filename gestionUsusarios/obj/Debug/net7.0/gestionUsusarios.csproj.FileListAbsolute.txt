@@ -1,0 +1,15 @@
+/home/arteN01-049/Desktop/dotNet/gestionUsusarios/obj/Debug/net7.0/gestionUsusarios.csproj.AssemblyReference.cache
+/home/arteN01-049/Desktop/dotNet/gestionUsusarios/obj/Debug/net7.0/gestionUsusarios.GeneratedMSBuildEditorConfig.editorconfig
+/home/arteN01-049/Desktop/dotNet/gestionUsusarios/obj/Debug/net7.0/gestionUsusarios.AssemblyInfoInputs.cache
+/home/arteN01-049/Desktop/dotNet/gestionUsusarios/obj/Debug/net7.0/gestionUsusarios.AssemblyInfo.cs
+/home/arteN01-049/Desktop/dotNet/gestionUsusarios/obj/Debug/net7.0/gestionUsusarios.csproj.CoreCompileInputs.cache
+/home/arteN01-049/Desktop/dotNet/gestionUsusarios/bin/Debug/net7.0/gestionUsusarios
+/home/arteN01-049/Desktop/dotNet/gestionUsusarios/bin/Debug/net7.0/gestionUsusarios.deps.json
+/home/arteN01-049/Desktop/dotNet/gestionUsusarios/bin/Debug/net7.0/gestionUsusarios.runtimeconfig.json
+/home/arteN01-049/Desktop/dotNet/gestionUsusarios/bin/Debug/net7.0/gestionUsusarios.dll
+/home/arteN01-049/Desktop/dotNet/gestionUsusarios/bin/Debug/net7.0/gestionUsusarios.pdb
+/home/arteN01-049/Desktop/dotNet/gestionUsusarios/obj/Debug/net7.0/gestionUsusarios.dll
+/home/arteN01-049/Desktop/dotNet/gestionUsusarios/obj/Debug/net7.0/refint/gestionUsusarios.dll
+/home/arteN01-049/Desktop/dotNet/gestionUsusarios/obj/Debug/net7.0/gestionUsusarios.pdb
+/home/arteN01-049/Desktop/dotNet/gestionUsusarios/obj/Debug/net7.0/gestionUsusarios.genruntimeconfig.cache
+/home/arteN01-049/Desktop/dotNet/gestionUsusarios/obj/Debug/net7.0/ref/gestionUsusarios.dll
