@@ -97,7 +97,7 @@ class Program
         {
             var usuario = Usuarios[idUsuario];
 
-            string hobies = string.Join("", usuario.Hobbies);
+            string hobies = string.Join(" ", usuario.Hobbies);
             
         Console.WriteLine($"\nNombre\t\tEdad\t\t\tHobbies");
 
@@ -115,12 +115,8 @@ class Program
 
         foreach (var usuario in Usuarios)
         {
-            string hobies = "";
-            for (int i = 0; i < usuario.Value.Hobbies.Length; i++)
-            {
-                hobies+= $"{usuario.Value.Hobbies[i]} ";
-                
-            }
+            string hobies = string.Join(" ",usuario.Value.Hobbies);
+            
         Console.WriteLine($"\n{usuario.Value.Nombre}\t\t{usuario.Value.Edad}\t\t\t{hobies}");
         }
     }
