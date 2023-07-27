@@ -1,0 +1,15 @@
+/home/arteN01-049/Desktop/dotNet/gestionProductos_NicolasSarchi/obj/Debug/net7.0/gestionProductos_NicolasSarchi.csproj.AssemblyReference.cache
+/home/arteN01-049/Desktop/dotNet/gestionProductos_NicolasSarchi/obj/Debug/net7.0/gestionProductos_NicolasSarchi.GeneratedMSBuildEditorConfig.editorconfig
+/home/arteN01-049/Desktop/dotNet/gestionProductos_NicolasSarchi/obj/Debug/net7.0/gestionProductos_NicolasSarchi.AssemblyInfoInputs.cache
+/home/arteN01-049/Desktop/dotNet/gestionProductos_NicolasSarchi/obj/Debug/net7.0/gestionProductos_NicolasSarchi.AssemblyInfo.cs
+/home/arteN01-049/Desktop/dotNet/gestionProductos_NicolasSarchi/obj/Debug/net7.0/gestionProductos_NicolasSarchi.csproj.CoreCompileInputs.cache
+/home/arteN01-049/Desktop/dotNet/gestionProductos_NicolasSarchi/bin/Debug/net7.0/gestionProductos_NicolasSarchi
+/home/arteN01-049/Desktop/dotNet/gestionProductos_NicolasSarchi/bin/Debug/net7.0/gestionProductos_NicolasSarchi.deps.json
+/home/arteN01-049/Desktop/dotNet/gestionProductos_NicolasSarchi/bin/Debug/net7.0/gestionProductos_NicolasSarchi.runtimeconfig.json
+/home/arteN01-049/Desktop/dotNet/gestionProductos_NicolasSarchi/bin/Debug/net7.0/gestionProductos_NicolasSarchi.dll
+/home/arteN01-049/Desktop/dotNet/gestionProductos_NicolasSarchi/bin/Debug/net7.0/gestionProductos_NicolasSarchi.pdb
+/home/arteN01-049/Desktop/dotNet/gestionProductos_NicolasSarchi/obj/Debug/net7.0/gestionProductos_NicolasSarchi.dll
+/home/arteN01-049/Desktop/dotNet/gestionProductos_NicolasSarchi/obj/Debug/net7.0/refint/gestionProductos_NicolasSarchi.dll
+/home/arteN01-049/Desktop/dotNet/gestionProductos_NicolasSarchi/obj/Debug/net7.0/gestionProductos_NicolasSarchi.pdb
+/home/arteN01-049/Desktop/dotNet/gestionProductos_NicolasSarchi/obj/Debug/net7.0/gestionProductos_NicolasSarchi.genruntimeconfig.cache
+/home/arteN01-049/Desktop/dotNet/gestionProductos_NicolasSarchi/obj/Debug/net7.0/ref/gestionProductos_NicolasSarchi.dll
