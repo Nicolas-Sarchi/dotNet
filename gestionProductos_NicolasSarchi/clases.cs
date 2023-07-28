@@ -19,7 +19,7 @@ public class Producto
     public void MostrarDetalles()
     {
 
-        Console.WriteLine($"Nombre: {Nombre}\tPrecio: {Precio}\tCant. Inventario: {Inventario}\n\nClientes:");
+        Console.WriteLine($"Nombre: {Nombre}\tPrecio: ${Precio}\tCant. Inventario: {Inventario}\n\nClientes:");
         
         foreach (var item in Clientes)
         {

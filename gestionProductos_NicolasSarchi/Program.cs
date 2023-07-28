@@ -31,9 +31,9 @@ class Program
                 case 5:
                     ActualizarInventarioProducto();
                     break;
-                // case 6:
-                //     ActualizarClientesProducto();
-                //     break;
+                case 6:
+                    ActualizarClientesProducto();
+                    break;
                 case 0:
                     Console.WriteLine("Hasta luego.");
                     break;
@@ -47,13 +47,17 @@ class Program
     }
     static void MostrarMenu()
     {
-        Console.WriteLine("\n***********************Clientes*************************");
+        System.Threading.Thread.Sleep(700);
+        Console.Clear();
+
+
+        Console.WriteLine("\n***********************Productos*************************");
         Console.WriteLine("1. Agregar Producto");
         Console.WriteLine("2. Mostrar Datos de un Producto");
         Console.WriteLine("3. Mostrar Productos");
         Console.WriteLine("4. Actualizar el precio de un Producto");
-        Console.WriteLine("5. Actualizar el precio de un Producto");
-        Console.WriteLine("6. Actualizar el precio de un Producto");
+        Console.WriteLine("5. Actualizar el Inventario de un Producto");
+        Console.WriteLine("6. Actualizar los Clientes de un Producto");
         Console.WriteLine("0. Salir");
     }
 
@@ -65,34 +69,51 @@ class Program
 
     static void AgregarProducto()
     {
-        Console.Write("Ingrese el còdigo del Producto ");
-        double idProducto = double.Parse(Console.ReadLine());
-        Console.Write("Ingrese el Nombre del Producto: ");
-        string? nombreProducto = Console.ReadLine();
-        Console.Write("Ingrese el precio del Producto ");
-        double precioProducto = double.Parse(Console.ReadLine());
-        Console.Write("Ingrese la cantidad en inventario del Producto: ");
-        int inventarioProducto = int.Parse(Console.ReadLine());
-        Console.Write("Ingrese los Clientes del Producto separados por un guion (-): ");
-        string? clientesStr = Console.ReadLine();
+        Console.Clear();
+        Console.WriteLine("\n*********************** Agregar un Producto *************************");
 
-        string[] Clientes = clientesStr.Split("-");
+        Console.Write("\nIngrese el còdigo del Producto: ");
+        double idProducto = double.TryParse(Console.ReadLine(), out double idProducto1) ? idProducto1 : 0;
 
-        Producto Producto = new Producto(nombreProducto, precioProducto, inventarioProducto, Clientes);
+        if (Productos.ContainsKey(idProducto)){
+            Console.WriteLine("Ya existe un producto con ese código\n\nPresione una tecla para volver al menú");
+            Console.ReadKey();
+        }
 
-        Productos.Add(idProducto, Producto);
+        else{
+Console.Write("Ingrese el Nombre del Producto: ");
+            string nombreProducto = Console.ReadLine() ?? " ";
+            Console.Write("Ingrese el precio del Producto ");
+            double precioProducto = double.TryParse(Console.ReadLine(), out double precioProducto1) ? precioProducto1 : 0;
+            Console.Write("Ingrese la cantidad en inventario del Producto: ");
+            int inventarioProducto = int.TryParse(Console.ReadLine(), out int inventarioProducto1) ? inventarioProducto1 : 0;
+            Console.Write("Ingrese los Clientes del Producto separados por un guion (-): ");
+            string clientesStr = Console.ReadLine() ?? "";
 
+            string[] Clientes = clientesStr.Split("-");
+
+            Producto Producto = new Producto(nombreProducto, precioProducto, inventarioProducto, Clientes);
+
+            Productos.Add(idProducto, Producto);
+
+            Console.WriteLine("\nProducto agregado exitosamente.");
+        }
+        
 
     }
 
     static void MostrarProductoPorId()
     {
+        Console.Clear();
+        Console.WriteLine("\n*********************** Buscar datos de un producto *************************");
+
         Console.Write("\nIngrese el numero de documento del Producto: ");
-        double idProducto = double.Parse(Console.ReadLine());
+        double idProducto = double.TryParse(Console.ReadLine(), out double idProducto1) ? idProducto1 : 0;
 
         if (Productos.ContainsKey(idProducto))
         {
             Productos[idProducto].MostrarDetalles();
+
         }
 
         else
@@ -102,25 +123,33 @@ class Program
     }
     static void MostrarTodosLosProductos()
     {
-        Console.WriteLine("\nNombre\t\tPrecio\t\tInventario\t\t\tClientes");
+        Console.Clear();
+        Console.WriteLine("\n*********************** Productos Disponibles *************************");
+
+        Console.WriteLine("\nId\t\tNombre\t\tPrecio\t\tInventario\t\tClientes");
 
         foreach (var Producto in Productos)
         {
             string clientes = string.Join(",", Producto.Value.Clientes);
 
-            Console.WriteLine($"\n{Producto.Value.Nombre}\t\t{Producto.Value.Precio}\t\t{Producto.Value.Inventario}\t\t\t{clientes}");
+            Console.WriteLine($"\n{Producto.Key}\t\t{Producto.Value.Nombre}\t\t${Producto.Value.Precio}\t\t{Producto.Value.Inventario}\t\t\t{clientes}");
         }
+        Console.WriteLine("\n\nPresione cualquier tecla para volver al menú.");
+        Console.ReadKey();
     }
 
     static void ActualizarPrecioProducto()
     {
+        Console.Clear();
+        Console.WriteLine("\n*********************** Actualizar el precio de un producto *************************");
+
         Console.Write("\nIngrese el còdigo del Producto que quiere editar: ");
-        double idProducto = double.Parse(Console.ReadLine());
+        double idProducto = double.TryParse(Console.ReadLine(), out double idProducto1) ? idProducto1 : 0;
 
         if (Productos.ContainsKey(idProducto))
         {
             Console.Write("Ingrese El Nuevo precio del producto: ");
-            double nuevoPrecio = double.Parse(Console.ReadLine());
+            double nuevoPrecio = double.TryParse(Console.ReadLine(), out double nuevoPrecio1) ? nuevoPrecio1 : 0;
             Productos[idProducto].ActualizarPrecio(nuevoPrecio);
             Console.WriteLine("\nEl precio del producto se actualizò correctamente");
 
@@ -132,13 +161,16 @@ class Program
     }
     static void ActualizarInventarioProducto()
     {
+        Console.Clear();
+        Console.WriteLine("\n*********************** Actualizar el Inventario de un producto *************************");
+
         Console.Write("\nIngrese el còdigo del Producto que quiere editar: ");
-        double idProducto = double.Parse(Console.ReadLine());
+        double idProducto = double.TryParse(Console.ReadLine(), out double idProducto1) ? idProducto1 : 0;
 
         if (Productos.ContainsKey(idProducto))
         {
             Console.Write("Ingrese la nueva cantidad en inventario del producto: ");
-            int nuevoInventario = int.Parse(Console.ReadLine());
+            int nuevoInventario = int.TryParse(Console.ReadLine(), out int nuevoInventario1) ? nuevoInventario1 : 0;
             Productos[idProducto].ActualizarInventario(nuevoInventario);
             Console.WriteLine("\nEl Inventario del producto se actualizò correctamente");
 
@@ -151,13 +183,16 @@ class Program
 
     static void ActualizarClientesProducto()
     {
+        Console.Clear();
+        Console.WriteLine("\n*********************** Actualizar los Clientes de un producto *************************");
+
         Console.Write("\nIngrese el còdigo del Producto que quiere editar: ");
-        double idProducto = double.Parse(Console.ReadLine());
+        double idProducto = double.TryParse(Console.ReadLine(), out double idProducto1) ? idProducto1 : 0;
 
         if (Productos.ContainsKey(idProducto))
         {
             Console.Write("Ingrese los nuevos clientes del producto separados por guiòn (-) ");
-            string? clientes = Console.ReadLine();
+            string clientes = Console.ReadLine() ?? "";
             string[] nuevosClientes = clientes.Split("-");
             Productos[idProducto].ActualizarClientes(nuevosClientes);
             Console.WriteLine("\nLos Clientes del producto se actualizaron correctamente");
