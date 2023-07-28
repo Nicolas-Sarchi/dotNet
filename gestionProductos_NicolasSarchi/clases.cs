@@ -6,9 +6,9 @@ public class Producto
     public string Nombre { get; set; }
     public double Precio { get; set; }
     public int Inventario { get; set; }
-    public string[] Clientes { get; set; }
+    public List<string> Clientes { get; set; }
 
-    public Producto(string nombre, double precio, int inventario, string[] clientes)
+    public Producto(string nombre, double precio, int inventario, List<string>  clientes)
     {
         Nombre = nombre;
         Precio = precio;
@@ -37,13 +37,32 @@ public class Producto
         Inventario = nuevoInventario;
     }
 
-    public void ActualizarClientes(string[] nuevosClientes)
+    public void AgregarNuevoCliente(string  nuevoCliente)
     {
-        Clientes = nuevosClientes;
+        Clientes.Add(nuevoCliente);
     }
 
+    public void EliminarCliente(int  indiceCliente)
+    {
+        Clientes.RemoveAt(indiceCliente);
+    }
+    public void ActualizarCliente(int  indiceCliente, string nuevoCliente)
+    {
+        Clientes[indiceCliente] = nuevoCliente;
+    }
 
+    public void MostrarClientes()
+    {
 
+        
+        for (int i = 0; i < Clientes.Count(); i++)
+
+        {
+        Console.WriteLine($"{i+1}){Clientes[i]}");
+        }
+    
+
+}
 }
 
 

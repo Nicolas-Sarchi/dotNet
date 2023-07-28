@@ -75,13 +75,15 @@ class Program
         Console.Write("\nIngrese el còdigo del Producto: ");
         double idProducto = double.TryParse(Console.ReadLine(), out double idProducto1) ? idProducto1 : 0;
 
-        if (Productos.ContainsKey(idProducto)){
+        if (Productos.ContainsKey(idProducto))
+        {
             Console.WriteLine("Ya existe un producto con ese código\n\nPresione una tecla para volver al menú");
             Console.ReadKey();
         }
 
-        else{
-Console.Write("Ingrese el Nombre del Producto: ");
+        else
+        {
+            Console.Write("Ingrese el Nombre del Producto: ");
             string nombreProducto = Console.ReadLine() ?? " ";
             Console.Write("Ingrese el precio del Producto ");
             double precioProducto = double.TryParse(Console.ReadLine(), out double precioProducto1) ? precioProducto1 : 0;
@@ -90,7 +92,7 @@ Console.Write("Ingrese el Nombre del Producto: ");
             Console.Write("Ingrese los Clientes del Producto separados por un guion (-): ");
             string clientesStr = Console.ReadLine() ?? "";
 
-            string[] Clientes = clientesStr.Split("-");
+            List<string> Clientes = clientesStr.Split("-").ToList();
 
             Producto Producto = new Producto(nombreProducto, precioProducto, inventarioProducto, Clientes);
 
@@ -98,7 +100,7 @@ Console.Write("Ingrese el Nombre del Producto: ");
 
             Console.WriteLine("\nProducto agregado exitosamente.");
         }
-        
+
 
     }
 
@@ -107,12 +109,15 @@ Console.Write("Ingrese el Nombre del Producto: ");
         Console.Clear();
         Console.WriteLine("\n*********************** Buscar datos de un producto *************************");
 
-        Console.Write("\nIngrese el numero de documento del Producto: ");
+        Console.Write("\nIngrese el codigodel Producto: ");
         double idProducto = double.TryParse(Console.ReadLine(), out double idProducto1) ? idProducto1 : 0;
 
         if (Productos.ContainsKey(idProducto))
         {
             Productos[idProducto].MostrarDetalles();
+            Console.WriteLine("\nPresione una tecla para continuar");
+            Console.ReadKey();
+
 
         }
 
@@ -184,18 +189,48 @@ Console.Write("Ingrese el Nombre del Producto: ");
     static void ActualizarClientesProducto()
     {
         Console.Clear();
-        Console.WriteLine("\n*********************** Actualizar los Clientes de un producto *************************");
+        Console.WriteLine("\n*********************** Gestionar los Clientes de un producto *************************");
 
         Console.Write("\nIngrese el còdigo del Producto que quiere editar: ");
         double idProducto = double.TryParse(Console.ReadLine(), out double idProducto1) ? idProducto1 : 0;
 
         if (Productos.ContainsKey(idProducto))
         {
-            Console.Write("Ingrese los nuevos clientes del producto separados por guiòn (-) ");
-            string clientes = Console.ReadLine() ?? "";
-            string[] nuevosClientes = clientes.Split("-");
-            Productos[idProducto].ActualizarClientes(nuevosClientes);
-            Console.WriteLine("\nLos Clientes del producto se actualizaron correctamente");
+
+            Console.WriteLine("\nQuè desea Hacer");
+            Console.WriteLine("1. Agregar un Nuevo Cliente");
+            Console.WriteLine("2. Eliminar un Cliente");
+            Console.WriteLine("3. Actualizar datos de un Cliente");
+            Console.WriteLine("0. Salir");
+
+            Console.Write("\nElige una opción: ");
+            int opcion = Convert.ToInt32(Console.ReadLine());
+
+            switch (opcion)
+            {
+                case 1:
+                    Productos[idProducto].MostrarClientes();
+                    Console.Write("Ingrese el nombre del nuevo cliente: ");
+                    string nuevoCliente = Console.ReadLine() ?? " ";
+                    Productos[idProducto].AgregarNuevoCliente(nuevoCliente);
+                    break;
+                case 2:
+                    Productos[idProducto].MostrarClientes();
+                    Console.Write("Ingrese el Id del cliente que quiere eliminar: ");
+                    int id = int.TryParse(Console.ReadLine(), out id) ? id : 0;
+                    Productos[idProducto].EliminarCliente(id-1);
+                    break;
+                case 3:
+                    Productos[idProducto].MostrarClientes();
+                    break;
+                case 0:
+                    Console.WriteLine("Hasta luego.");
+                    break;
+                default:
+                    Console.WriteLine("Opción inválida. Inténtalo de nuevo.");
+                    break;
+            }
+
 
         }
         else
