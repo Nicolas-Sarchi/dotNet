@@ -59,7 +59,7 @@ class Program
     static void AgregarContacto()
     {
         Console.Write("Ingrese el nombre del contacto: ");
-        string? nombreContacto = Console.ReadLine();
+        string nombreContacto = Console.ReadLine();
         Console.Write("Ingrese el Telèfono del contacto: ");
         double telContacto = double.TryParse(Console.ReadLine(), out telContacto) ? telContacto : 0;
         AgendaTelefonica.Add(nombreContacto, (telContacto, false));
@@ -78,7 +78,7 @@ class Program
     static void MarcarFavorito()
     {
         Console.Write("Ingrese el nombre del contacto a marcar como favorito: ");
-        string? nombreContacto = Console.ReadLine();
+        string nombreContacto = Console.ReadLine();
 
         if (AgendaTelefonica.ContainsKey(nombreContacto))
         {
@@ -95,7 +95,7 @@ class Program
     static void EliminarContacto()
     {
         Console.Write("Ingrese el nombre del contacto a eliminar: ");
-        string? nombreContacto = Console.ReadLine();
+        string nombreContacto = Console.ReadLine();
 
         if (AgendaTelefonica.ContainsKey(nombreContacto))
         {

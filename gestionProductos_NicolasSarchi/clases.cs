@@ -8,7 +8,7 @@ public class Producto
     public int Inventario { get; set; }
     public List<string> Clientes { get; set; }
 
-    public Producto(string nombre, double precio, int inventario, List<string>  clientes)
+    public Producto(string nombre, double precio, int inventario, List<string> clientes)
     {
         Nombre = nombre;
         Precio = precio;
@@ -20,7 +20,7 @@ public class Producto
     {
 
         Console.WriteLine($"Nombre: {Nombre}\tPrecio: ${Precio}\tCant. Inventario: {Inventario}\n\nClientes:");
-        
+
         foreach (var item in Clientes)
         {
             Console.WriteLine($"- {item}");
@@ -37,32 +37,27 @@ public class Producto
         Inventario = nuevoInventario;
     }
 
-    public void AgregarNuevoCliente(string  nuevoCliente)
+    public void AgregarNuevoCliente(string nuevoCliente)
     {
         Clientes.Add(nuevoCliente);
     }
 
-    public void EliminarCliente(int  indiceCliente)
+    public void EliminarCliente(int indiceCliente)
     {
         Clientes.RemoveAt(indiceCliente);
     }
-    public void ActualizarCliente(int  indiceCliente, string nuevoCliente)
+    public void ActualizarCliente(int indiceCliente, string nuevoCliente)
     {
         Clientes[indiceCliente] = nuevoCliente;
     }
 
     public void MostrarClientes()
     {
-
-        
         for (int i = 0; i < Clientes.Count(); i++)
-
         {
-        Console.WriteLine($"{i+1}){Clientes[i]}");
+            Console.WriteLine($"{i + 1}) {Clientes[i]}");
         }
-    
-
-}
+    }               
 }
 
 

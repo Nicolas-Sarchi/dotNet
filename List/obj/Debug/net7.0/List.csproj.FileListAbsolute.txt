@@ -1,0 +1,15 @@
+/home/arteN01-049/Desktop/dotNet/List/obj/Debug/net7.0/List.csproj.AssemblyReference.cache
+/home/arteN01-049/Desktop/dotNet/List/obj/Debug/net7.0/List.GeneratedMSBuildEditorConfig.editorconfig
+/home/arteN01-049/Desktop/dotNet/List/obj/Debug/net7.0/List.AssemblyInfoInputs.cache
+/home/arteN01-049/Desktop/dotNet/List/obj/Debug/net7.0/List.AssemblyInfo.cs
+/home/arteN01-049/Desktop/dotNet/List/obj/Debug/net7.0/List.csproj.CoreCompileInputs.cache
+/home/arteN01-049/Desktop/dotNet/List/bin/Debug/net7.0/List
+/home/arteN01-049/Desktop/dotNet/List/bin/Debug/net7.0/List.deps.json
+/home/arteN01-049/Desktop/dotNet/List/bin/Debug/net7.0/List.runtimeconfig.json
+/home/arteN01-049/Desktop/dotNet/List/bin/Debug/net7.0/List.dll
+/home/arteN01-049/Desktop/dotNet/List/bin/Debug/net7.0/List.pdb
+/home/arteN01-049/Desktop/dotNet/List/obj/Debug/net7.0/List.dll
+/home/arteN01-049/Desktop/dotNet/List/obj/Debug/net7.0/refint/List.dll
+/home/arteN01-049/Desktop/dotNet/List/obj/Debug/net7.0/List.pdb
+/home/arteN01-049/Desktop/dotNet/List/obj/Debug/net7.0/List.genruntimeconfig.cache
+/home/arteN01-049/Desktop/dotNet/List/obj/Debug/net7.0/ref/List.dll

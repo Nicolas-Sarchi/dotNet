@@ -117,8 +117,7 @@ class Program
             Productos[idProducto].MostrarDetalles();
             Console.WriteLine("\nPresione una tecla para continuar");
             Console.ReadKey();
-
-
+            
         }
 
         else
@@ -222,6 +221,11 @@ class Program
                     break;
                 case 3:
                     Productos[idProducto].MostrarClientes();
+                    Console.Write("Ingrese el Id del cliente que quiere eliminar: ");
+                    int clienteId = int.TryParse(Console.ReadLine(), out id) ? id : 0;
+                     Console.Write("Ingrese el Nuevo nombre del cliente: ");
+                    string nuevoClientes = Console.ReadLine() ?? "";
+                    Productos[idProducto].ActualizarCliente(clienteId -1, nuevoClientes);
                     break;
                 case 0:
                     Console.WriteLine("Hasta luego.");

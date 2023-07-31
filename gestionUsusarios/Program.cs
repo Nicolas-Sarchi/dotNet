@@ -60,11 +60,11 @@ class Program
          Console.Write("Ingrese el nùmero de documento del Usuario ");
         double idUsuario = double.Parse(Console.ReadLine());
         Console.Write("Ingrese el Nombre del Usuario: ");
-        string? nombreUsuario = Console.ReadLine();
+        string nombreUsuario = Console.ReadLine();
         Console.Write("Ingrese la Edad del Usuario: ");
         int edadUsuario = int.Parse(Console.ReadLine());
         Console.Write("Ingrese los Hobbies del Usuario separados por un guion (-): ");
-        string? hobbiesStr = Console.ReadLine();
+        string hobbiesStr = Console.ReadLine();
 
         string[] Hobbies = hobbiesStr.Split("-");
 
