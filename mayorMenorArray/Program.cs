@@ -2,7 +2,7 @@
 
 Console.WriteLine("\nIngrese una serie de números separados por espacio, cuando termine presione enter:");
 
-string? numeros = Console.ReadLine();
+string numeros = Console.ReadLine();
 
 string[] arrayStr = numeros.Split(' ');
 

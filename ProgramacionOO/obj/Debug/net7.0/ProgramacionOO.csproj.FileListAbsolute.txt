@@ -1,0 +1,5 @@
+/home/arteN01-049/Desktop/dotNet/ProgramacionOO/obj/Debug/net7.0/ProgramacionOO.csproj.AssemblyReference.cache
+/home/arteN01-049/Desktop/dotNet/ProgramacionOO/obj/Debug/net7.0/ProgramacionOO.GeneratedMSBuildEditorConfig.editorconfig
+/home/arteN01-049/Desktop/dotNet/ProgramacionOO/obj/Debug/net7.0/ProgramacionOO.AssemblyInfoInputs.cache
+/home/arteN01-049/Desktop/dotNet/ProgramacionOO/obj/Debug/net7.0/ProgramacionOO.AssemblyInfo.cs
+/home/arteN01-049/Desktop/dotNet/ProgramacionOO/obj/Debug/net7.0/ProgramacionOO.csproj.CoreCompileInputs.cache
