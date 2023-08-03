@@ -8,12 +8,42 @@ public class Jugador : Persona
     int NivelHabilidad {get;set;}
     string PiernaHabil {get;set;}
 
-    public Jugador (string nombre, int edad, int id, int dorsal, string posicion, int nivelHabilidad, string PiernaHabil): base(nombre,edad,id)
+    public Jugador (string nombre, int edad, int id,string ciudadOrigen, int dorsal, string posicion, int nivelHabilidad, string PiernaHabil): base(nombre,edad,id, ciudadOrigen)
     {
         this.Dorsal = dorsal;
         this.Posicion =posicion;
         this.NivelHabilidad = nivelHabilidad;
         this.PiernaHabil = PiernaHabil;
+    }
+
+    public Jugador (){}
+    public Jugador agregarJugador (){
+        Jugador jugador = new Jugador();
+        Console.Write("Ingrese el nombre del Jugador :");
+        jugador.nombre = Console.ReadLine();
+        
+        Console.Write("Ingrese la edad del Jugador :");
+        jugador.edad = int.Parse(Console.ReadLine());
+
+        Console.Write("Ingrese el Id del Jugador :");
+        jugador.id = int.Parse(Console.ReadLine());
+
+        Console.Write("Ingrese la ciudad de origen del Jugador :");
+        jugador.ciudadOrigen = Console.ReadLine();
+
+        Console.Write("Ingrese el Dorsal del Jugador :");
+        jugador.Dorsal = int.Parse(Console.ReadLine());
+
+        Console.Write("Ingrese la posicion del Jugador :");
+        jugador.Posicion = Console.ReadLine();
+
+        Console.Write("Ingrese el nivel de habilidad del Jugador :");
+        jugador.NivelHabilidad = int.Parse(Console.ReadLine());
+
+        Console.Write("Ingrese la Pierna Habil del Jugador :");
+        jugador.Posicion = Console.ReadLine();
+
+        return jugador;
     }
     
 }

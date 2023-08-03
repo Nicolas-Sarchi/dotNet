@@ -10,10 +10,11 @@ public class MenuBusqueda
     {
         Console.Clear();
         Console.WriteLine("\n------------------- Consulta de Datos ------------------:");
-        Console.WriteLine("1. Listar Jugadores por Equipo");
-        Console.WriteLine("2. Buscar los delanteros de cada equipo");
-        Console.WriteLine("3. Buscar cuerpo entrenadores por equipo");
-        Console.WriteLine("4. Volver al Menù Principal");
+        Console.WriteLine("1. Buscar Equipo");
+        Console.WriteLine("2. Listar Jugadores por Equipo");
+        Console.WriteLine("3. Buscar los delanteros de cada equipo");
+        Console.WriteLine("4. Buscar cuerpo entrenadores por equipo");
+        Console.WriteLine("5. Volver al Menù Principal");
         return Convert.ToInt32(Console.ReadLine()); 
 
     }
