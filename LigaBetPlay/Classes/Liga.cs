@@ -24,20 +24,6 @@ class Liga
     }
 
     public Liga(){ }
-    /// <summary>
-    /// Agregar una liga al torneo
-    /// </summary>
-    /// <param name="Ligas"> Lista de tipo liga </param>
-    public void agregarLiga(List<Liga> Ligas)
-    {
-        Console.WriteLine("Agregar Liga");
-        Console.Write("Ingrese el Nombre de la Liga:");
-        string nombreLiga = Console.ReadLine();
-        Console.Write("Ingrese el Id de la Liga:");
-        int idLiga = int.Parse(Console.ReadLine());
-        Liga liga = new Liga(nombreLiga, idLiga);
-        Ligas.Add(liga);
-    }
 
     public void mostrarLigas(List<Liga> Ligas)
     {

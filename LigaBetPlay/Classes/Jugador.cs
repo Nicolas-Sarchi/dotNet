@@ -41,9 +41,23 @@ public class Jugador : Persona
         jugador.NivelHabilidad = int.Parse(Console.ReadLine());
 
         Console.Write("Ingrese la Pierna Habil del Jugador :");
-        jugador.Posicion = Console.ReadLine();
+        jugador.PiernaHabil = Console.ReadLine();
 
         return jugador;
     }
     
+    public Jugador BuscarJugador(List<Jugador> jugadores)
+    {
+        Console.WriteLine("Nombre");
+        foreach (var jugador in jugadores)
+        {
+        Console.WriteLine($"{jugador.nombre}");
+        }
+        Console.ReadKey();
+        Console.WriteLine("ingrese el nombre del Jugador: ");
+        string opcion = Console.ReadLine();
+        Jugador jugadorSeleccionado = jugadores.Find(Jugador => Jugador.nombre.Equals(opcion));
+        Console.ReadKey();
+        return jugadorSeleccionado;
+    }
 }

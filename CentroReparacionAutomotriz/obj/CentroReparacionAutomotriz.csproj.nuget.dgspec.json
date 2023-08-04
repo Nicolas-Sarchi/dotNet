@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/arteN01-049/Desktop/dotNet/LigaBetPlay/LigaBetPlay.csproj": {}
+    "/home/arteN01-049/Desktop/dotNet/CentroReparacionAutomotriz/CentroReparacionAutomotriz.csproj": {}
   },
   "projects": {
-    "/home/arteN01-049/Desktop/dotNet/LigaBetPlay/LigaBetPlay.csproj": {
+    "/home/arteN01-049/Desktop/dotNet/CentroReparacionAutomotriz/CentroReparacionAutomotriz.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/arteN01-049/Desktop/dotNet/LigaBetPlay/LigaBetPlay.csproj",
-        "projectName": "LigaBetPlay",
-        "projectPath": "/home/arteN01-049/Desktop/dotNet/LigaBetPlay/LigaBetPlay.csproj",
+        "projectUniqueName": "/home/arteN01-049/Desktop/dotNet/CentroReparacionAutomotriz/CentroReparacionAutomotriz.csproj",
+        "projectName": "CentroReparacionAutomotriz",
+        "projectPath": "/home/arteN01-049/Desktop/dotNet/CentroReparacionAutomotriz/CentroReparacionAutomotriz.csproj",
         "packagesPath": "/home/arteN01-049/.nuget/packages/",
-        "outputPath": "/home/arteN01-049/Desktop/dotNet/LigaBetPlay/obj/",
+        "outputPath": "/home/arteN01-049/Desktop/dotNet/CentroReparacionAutomotriz/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/arteN01-049/.nuget/NuGet/NuGet.Config"

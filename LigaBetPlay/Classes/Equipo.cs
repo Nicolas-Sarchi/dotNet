@@ -28,6 +28,14 @@ class Equipo
         Equipo equipo = new Equipo();
         Console.Write("Ingrese el nombre del equipo :");
         equipo.nombre = Console.ReadLine();
+        Console.Write("Ingrese cantidad de propietarios del equipo :");
+        int cantidad = int.Parse(Console.ReadLine());
+        for (int i = 0; i < cantidad; i++)
+        {
+            Console.Write("Ingrese el nombre del propietario: ");
+            string propietario = Console.ReadLine();
+            equipo.propietarios.Add(propietario);
+        }
         return equipo;
     }
 
@@ -53,11 +61,37 @@ class Equipo
 
     public void ListarJugadores(List<Jugador> jugadores)
     {
-        Console.WriteLine($"------------------ {this.nombre} ------------------");
-        Console.WriteLine("Nombre\t\tId\t\tEdad\t\tCiudad de origen\t\tDorsal\t\tPosicion\t\tNivel de Habilidad\t\tPierna Habil");
+        Console.WriteLine($"------------------ Jugadores {this.nombre} ------------------");
+        Console.WriteLine("#\t\tNombre\t\tEdad\t\tCiudad\t\tDorsal\t\tPosicion\t\tHabilidad\t\tPierna Habil");
         foreach (var jugador in jugadores)
         {
-            Console.WriteLine($"{jugador.nombre}\t\t{jugador.id}\t\t{jugador.edad}\t\t{jugador.ciudadOrigen}\t\t{jugador.Dorsal}\t\t{jugador.Posicion}\t\t{jugador.NivelHabilidad}\t\t{jugador.PiernaHabil}");
+            Console.WriteLine($"{jugador.id}\t\t{jugador.nombre}\t\t{jugador.edad}\t\t{jugador.ciudadOrigen}\t\t{jugador.Dorsal}\t\t{jugador.Posicion}\t\t{jugador.NivelHabilidad}\t\t{jugador.PiernaHabil}");
+        }
+        Console.ReadKey();
+    }
+
+    public void ListarDelanteros(List<Jugador> jugadores)
+    {
+        Console.WriteLine($"------------------ Delanteros {this.nombre} ------------------");
+        Console.WriteLine("#\t\tNombre\t\tEdad\t\tCiudad\t\tDorsal\t\tPosicion\t\tHabilidad\t\tPierna Habil");
+        foreach (var jugador in jugadores)
+        {
+            if (jugador.Posicion.ToUpper().Equals("DELANTERO"))
+            {
+                 Console.WriteLine($"{jugador.id}\t\t{jugador.nombre}\t\t{jugador.edad}\t\t{jugador.ciudadOrigen}\t\t{jugador.Dorsal}\t\t{jugador.Posicion}\t\t{jugador.NivelHabilidad}\t\t{jugador.PiernaHabil}");
+            }
+           
+        }
+        Console.ReadKey();
+    }
+
+    public void ListarEntrenadores(List<Entrenador> entrenadores)
+    {
+        Console.WriteLine($"------------------ Entrenadores {this.nombre} ------------------");
+        Console.WriteLine("#\t\tNombre\t\tEdad\t\tCiudad\t\tcod.Federacion\t\tEspecialidad");
+        foreach (var entrenador in entrenadores)
+        {
+            Console.WriteLine($"{entrenador.id}\t\t{entrenador.nombre}\t\t{entrenador.edad}\t\t{entrenador.ciudadOrigen}\t\t{entrenador.codFederacion}\t\t{entrenador.especialidad}");
         }
         Console.ReadKey();
     }

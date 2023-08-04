@@ -57,21 +57,36 @@ internal class Program
                                 jugador = jugador.agregarJugador();
                                 equipoBuscarJugador.jugadores.Add(jugador);
                                 break;
+                            case 5:
+                                Console.WriteLine("Equipo del que sale: ");
+                                Liga ligabuscarJugadorTraspasoSalida = new Liga();
+                                Liga opcionligaJugadorTraspasoSalida = ligabuscarJugadorTraspasoSalida.buscarLiga(Ligas);
+                                Equipo equipoBuscarJugadorTraspasoSalida = new Equipo();
+                                equipoBuscarJugadorTraspasoSalida = equipoBuscarJugadorTraspasoSalida.buscarEquipo(opcionligaJugadorTraspasoSalida.EquiposDeLiga);
+                                Jugador jugadorTraspaso = new Jugador();
+                                jugadorTraspaso = jugadorTraspaso.BuscarJugador(equipoBuscarJugadorTraspasoSalida.jugadores);
+                                Console.WriteLine("Equipo dal que entra: ");
+                                Liga ligabuscarJugadorTraspasoEntrada = new Liga();
+                                Liga opcionligaJugadorTraspasoEntrada = ligabuscarJugadorTraspasoEntrada.buscarLiga(Ligas);
+                                Equipo equipoBuscarJugadorTraspasoEntrada = new Equipo();
+                                equipoBuscarJugadorTraspasoEntrada = equipoBuscarJugadorTraspasoEntrada.buscarEquipo(opcionligaJugadorTraspasoEntrada.EquiposDeLiga);
+                                TransferirJugador(equipoBuscarJugadorTraspasoSalida, jugadorTraspaso, equipoBuscarJugadorTraspasoEntrada);
+                                break;
                             default:
                                 break;
                         }
                     } while (opcionPlantel != 6);
                     break;
                 case 2:
-                    int opcionBuscar = 0;
+                    int opcionBuscar;
                     MenuBusqueda menuBusqueda = new MenuBusqueda();
                     do
                     {
-                        opcionPlantel = menuBusqueda.ConsultaDatos();
-                        switch (opcionPlantel)
+                        opcionBuscar = menuBusqueda.ConsultaDatos();
+                        switch (opcionBuscar)
                         {
-                            case 1:
-                                Console.WriteLine("------------------ Buscar Equipo -----------------");
+                            case 1: 
+                                Console.WriteLine("<------------------ Buscar Equipo ----------------->");
                                 Liga ligabuscar = new Liga();
                                 Liga opcionliga = ligabuscar.buscarLiga(Ligas);
                                 Equipo equipoBuscar = new Equipo();
@@ -85,11 +100,27 @@ internal class Program
                                 equipoListar = equipoListar.buscarEquipo(opcionligaListar.EquiposDeLiga);
                                 equipoListar.ListarJugadores(equipoListar.jugadores);
                                 break;
+                            case 3:
+                                Console.WriteLine("--------------- Listar Delanteros por Equipo --------------");
+                                Liga ligaListarDelanteros = new Liga();
+                                Liga opcionligaListarDelanteros = ligaListarDelanteros.buscarLiga(Ligas);
+                                Equipo equipoListarDelanteros = new Equipo();
+                                equipoListarDelanteros = equipoListarDelanteros.buscarEquipo(opcionligaListarDelanteros.EquiposDeLiga);
+                                equipoListarDelanteros.ListarDelanteros(equipoListarDelanteros.jugadores);
+                                break;
+                            case 4:
+                                Console.WriteLine("--------------- Listar Entrenadores por Equipo --------------");
+                                Liga ligaListarEntrenadores = new Liga();
+                                Liga opcionligaListarEntrenadores = ligaListarEntrenadores.buscarLiga(Ligas);
+                                Equipo equipoListarEntrenadores = new Equipo();
+                                equipoListarEntrenadores = equipoListarEntrenadores.buscarEquipo(opcionligaListarEntrenadores.EquiposDeLiga);
+                                equipoListarEntrenadores.ListarEntrenadores(equipoListarEntrenadores.entrenadores);
+                                break;
                             default:
                                 break;
                         }
 
-                    } while (opcionBuscar != 5);
+                    } while (opcionBuscar!= 5);
                     break;
                 case 3:
                     Liga liga = new Liga();
@@ -104,7 +135,12 @@ internal class Program
         } while (opcion != 4);
     }
 
+    public static void TransferirJugador(Equipo equipoSalida,Jugador jugador ,Equipo equipoEntrada)
+    {
+        equipoSalida.jugadores.Remove(jugador);
+        equipoEntrada.jugadores.Add(jugador);
+        Console.WriteLine($"{jugador.nombre} fue transferido exitosamente de {equipoSalida.nombre} a {equipoEntrada.nombre}");
+        Console.ReadKey();
+    }
+
 }
-
-
-
