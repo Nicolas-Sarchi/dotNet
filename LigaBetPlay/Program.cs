@@ -31,12 +31,31 @@ internal class Program
                                 opcionliga.EquiposDeLiga.Add(nuevoequipo);
                                 break;
                             case 2:
+                                Liga ligabuscarEntrenador = new Liga();
+                                Liga opcionligaEntrenador = ligabuscarEntrenador.buscarLiga(Ligas);
+                                Equipo equipoBuscarEntrenador = new Equipo();
+                                equipoBuscarEntrenador = equipoBuscarEntrenador.buscarEquipo(opcionligaEntrenador.EquiposDeLiga);
+                                Entrenador Entrenador = new Entrenador();
+                                Entrenador = Entrenador.agregarEntrenador();
+                                equipoBuscarEntrenador.entrenadores.Add(Entrenador);
+                                break;
+                            case 3:
+                                Liga ligabuscarMasajista = new Liga();
+                                Liga opcionligaMasajista = ligabuscarMasajista.buscarLiga(Ligas);
+                                Equipo equipoBuscarMasajista = new Equipo();
+                                equipoBuscarMasajista = equipoBuscarMasajista.buscarEquipo(opcionligaMasajista.EquiposDeLiga);
+                                Masajista Masajista = new Masajista();
+                                Masajista = Masajista.agregarMasajista();
+                                equipoBuscarMasajista.masajistas.Add(Masajista);
+                                break;
+                            case 4:
                                 Liga ligabuscarJugador = new Liga();
                                 Liga opcionligaJugador = ligabuscarJugador.buscarLiga(Ligas);
                                 Equipo equipoBuscarJugador = new Equipo();
-                                equipoBuscarJugador.buscarEquipo(opcionligaJugador.EquiposDeLiga);
+                                equipoBuscarJugador = equipoBuscarJugador.buscarEquipo(opcionligaJugador.EquiposDeLiga);
                                 Jugador jugador = new Jugador();
-                                
+                                jugador = jugador.agregarJugador();
+                                equipoBuscarJugador.jugadores.Add(jugador);
                                 break;
                             default:
                                 break;
@@ -52,10 +71,19 @@ internal class Program
                         switch (opcionPlantel)
                         {
                             case 1:
+                                Console.WriteLine("------------------ Buscar Equipo -----------------");
                                 Liga ligabuscar = new Liga();
                                 Liga opcionliga = ligabuscar.buscarLiga(Ligas);
                                 Equipo equipoBuscar = new Equipo();
                                 equipoBuscar.buscarEquipo(opcionliga.EquiposDeLiga);
+                                break;
+                            case 2:
+                                Console.WriteLine("--------------- Listar Jugadores por Equipo --------------");
+                                Liga ligaListar = new Liga();
+                                Liga opcionligaListar = ligaListar.buscarLiga(Ligas);
+                                Equipo equipoListar = new Equipo();
+                                equipoListar = equipoListar.buscarEquipo(opcionligaListar.EquiposDeLiga);
+                                equipoListar.ListarJugadores(equipoListar.jugadores);
                                 break;
                             default:
                                 break;

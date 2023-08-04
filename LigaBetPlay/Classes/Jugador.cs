@@ -3,10 +3,10 @@ namespace LigaBetPlay.Classes;
 
 public class Jugador : Persona
 {
-    int Dorsal {get;set;}
-    string Posicion {get;set;}
-    int NivelHabilidad {get;set;}
-    string PiernaHabil {get;set;}
+    public int Dorsal {get;set;}
+    public string Posicion {get;set;}
+    public int NivelHabilidad {get;set;}
+    public string PiernaHabil {get;set;}
 
     public Jugador (string nombre, int edad, int id,string ciudadOrigen, int dorsal, string posicion, int nivelHabilidad, string PiernaHabil): base(nombre,edad,id, ciudadOrigen)
     {
