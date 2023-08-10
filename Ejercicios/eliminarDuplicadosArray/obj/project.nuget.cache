@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "d1CdQc5MglGga6hwDcH12fYjsciE/aTuW3f5eMIAu3XdWvW5RBSizvrk5uj2m7Zh5UujTvBFrz47oEzZlrgMuQ==",
+  "dgSpecHash": "uNIp7PlfaYmrD/LZ/z2e9tFUo+8zV/6cWbwKgJnC4ry8Hh/fb9tyHBROXWk6hfiqoTaFNlFYI4oR36EN4bDYTA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Nicolas\\Desktop\\dotNet\\eliminarDuplicadosArray\\eliminarDuplicadosArray.csproj",
+  "projectFilePath": "/home/arteN01-049/Desktop/dotNet/Ejercicios/eliminarDuplicadosArray/eliminarDuplicadosArray.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

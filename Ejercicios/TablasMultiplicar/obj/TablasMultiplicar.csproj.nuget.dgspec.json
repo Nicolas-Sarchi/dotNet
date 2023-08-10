@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/arteN01-049/Desktop/dotNet/TablasMultiplicar/TablasMultiplicar.csproj": {}
+    "/home/arteN01-049/Desktop/dotNet/Ejercicios/TablasMultiplicar/TablasMultiplicar.csproj": {}
   },
   "projects": {
-    "/home/arteN01-049/Desktop/dotNet/TablasMultiplicar/TablasMultiplicar.csproj": {
+    "/home/arteN01-049/Desktop/dotNet/Ejercicios/TablasMultiplicar/TablasMultiplicar.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/arteN01-049/Desktop/dotNet/TablasMultiplicar/TablasMultiplicar.csproj",
+        "projectUniqueName": "/home/arteN01-049/Desktop/dotNet/Ejercicios/TablasMultiplicar/TablasMultiplicar.csproj",
         "projectName": "TablasMultiplicar",
-        "projectPath": "/home/arteN01-049/Desktop/dotNet/TablasMultiplicar/TablasMultiplicar.csproj",
+        "projectPath": "/home/arteN01-049/Desktop/dotNet/Ejercicios/TablasMultiplicar/TablasMultiplicar.csproj",
         "packagesPath": "/home/arteN01-049/.nuget/packages/",
-        "outputPath": "/home/arteN01-049/Desktop/dotNet/TablasMultiplicar/obj/",
+        "outputPath": "/home/arteN01-049/Desktop/dotNet/Ejercicios/TablasMultiplicar/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/arteN01-049/.nuget/NuGet/NuGet.Config"

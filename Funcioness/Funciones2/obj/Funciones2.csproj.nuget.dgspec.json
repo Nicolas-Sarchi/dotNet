@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/arteN01-049/Desktop/dotNet/Funciones2/Funciones2.csproj": {}
+    "/home/arteN01-049/Desktop/dotNet/Funcioness/Funciones2/Funciones2.csproj": {}
   },
   "projects": {
-    "/home/arteN01-049/Desktop/dotNet/Funciones2/Funciones2.csproj": {
+    "/home/arteN01-049/Desktop/dotNet/Funcioness/Funciones2/Funciones2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/arteN01-049/Desktop/dotNet/Funciones2/Funciones2.csproj",
+        "projectUniqueName": "/home/arteN01-049/Desktop/dotNet/Funcioness/Funciones2/Funciones2.csproj",
         "projectName": "Funciones2",
-        "projectPath": "/home/arteN01-049/Desktop/dotNet/Funciones2/Funciones2.csproj",
+        "projectPath": "/home/arteN01-049/Desktop/dotNet/Funcioness/Funciones2/Funciones2.csproj",
         "packagesPath": "/home/arteN01-049/.nuget/packages/",
-        "outputPath": "/home/arteN01-049/Desktop/dotNet/Funciones2/obj/",
+        "outputPath": "/home/arteN01-049/Desktop/dotNet/Funcioness/Funciones2/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/arteN01-049/.nuget/NuGet/NuGet.Config"

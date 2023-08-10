@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/arteN01-049/Desktop/dotNet/Ejercicio_1/Ejercicio_1.csproj",
+      "projectUniqueName": "/home/arteN01-049/Desktop/dotNet/Ejercicios/Ejercicio_1/Ejercicio_1.csproj",
       "projectName": "Ejercicio_1",
-      "projectPath": "/home/arteN01-049/Desktop/dotNet/Ejercicio_1/Ejercicio_1.csproj",
+      "projectPath": "/home/arteN01-049/Desktop/dotNet/Ejercicios/Ejercicio_1/Ejercicio_1.csproj",
       "packagesPath": "/home/arteN01-049/.nuget/packages/",
-      "outputPath": "/home/arteN01-049/Desktop/dotNet/Ejercicio_1/obj/",
+      "outputPath": "/home/arteN01-049/Desktop/dotNet/Ejercicios/Ejercicio_1/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/arteN01-049/.nuget/NuGet/NuGet.Config"

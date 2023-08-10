@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/ERpKu0KFRXPJ8TS2jEQCkpp0hluSZLXvtKHFyMQPs5fq/f/Ac9KJi3bdEPHZPLvgK7De6Suj/j3lpKJ9/27wg==",
+  "dgSpecHash": "wQhi4nh4aqbJcrKJ9NZ8WcbDtzSFThYXTdb0VKHKBAduMqCghFqLqBQkgNnRflnsfO/9HQ0Yi56czIkfoYPPHQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Nicolas\\Desktop\\dotNet\\fizzBuzz\\fizzBuzz.csproj",
+  "projectFilePath": "/home/arteN01-049/Desktop/dotNet/Ejercicios/fizzBuzz/fizzBuzz.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
